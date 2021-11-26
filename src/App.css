@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+}
+
+header {
+  padding: 30px;
+  height: 40px;
+  background-color: #183059;
+}
+
+.sideNav {
+  width: 240px;
+  background-color: #183059;
+  max-height: 95vh;
+  min-height: 655px;
+  position: absolute;
+  padding: 0px 30px;
+  transition: all 0.7s;
+  left: -100%;
+}
+
+.sideNav.active {
+  left: 0;
+  min-height: 653px;
+}
+
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.logo {
+  width: 150px;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+ul li a svg {
+  margin-right: 10px;
+}
+
+ul li a:hover ,
+ul li a:active
+{
+  background-color: #3f516e;
+}
+
+header svg {
+  font-size: 30px;
+}
+
+.main {
+  height: 80vh;
+  display: flex;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
